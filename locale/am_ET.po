@@ -1,0 +1,725 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# samson <sambelet@yahoo.com>, 2014,2016-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Deepin Movie\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-11 11:21+0800\n"
+"PO-Revision-Date: 2017-01-17 03:04+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic (Ethiopia) (http://www.transifex.com/linuxdeepin/deepin-movie/language/am_ET/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: am_ET\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/views/AboutSection.qml:6 ../src/views/PreferenceWindow.qml:129
+msgid "About"
+msgstr "ስለ"
+
+#: ../src/views/AboutSection.qml:15
+msgid "Acknowledgements"
+msgstr "ማረጋገጫ"
+
+#: ../src/views/AboutSection.qml:13 ../src/views/TitleBar.qml:70
+#: ../src/views/TitleBar.qml:142 ../src/views/window.py:71
+msgid "Deepin Movie"
+msgstr "ሙቪ"
+
+#: ../src/views/AboutSection.qml:28
+msgid "Version"
+msgstr "እትም"
+
+#: ../src/views/AboutSection.qml:28 ../src/views/InformationLabel.qml:20
+#: ../src/views/MainController.qml:260 ../src/views/main.qml:142
+msgid ":"
+msgstr ":"
+
+#: ../src/views/AboutSection.qml:58
+msgid ""
+"Deepin Movie is a well-designed and full-featured video player with simple "
+"borderless design. It supports local and streaming media play with multiple "
+"video formats."
+msgstr "ዲፕኢን ሙቪ በ ጥሩ-የ ተዘጋጀ እና የ ሙሉ-ገጽታ ቪዲዮ ማጫወቻ ነው: ድንበሮቹ በ ቀላሉ የ ተዘጋጁ ናቸው: የ አካባቢ እና በርካታ የ ቪዲዮ አቀራረቦችን ይደግፋል"
+
+#: ../src/views/AboutSection.qml:69
+msgid "Deepin Movie is released under GPLv3."
+msgstr "የ ዲፕኢን ሙቪዎች የ ተለቀቁት በ GPLv3. ነው"
+
+#: ../src/views/ControlBar.qml:229
+msgid "Stop playing"
+msgstr "ማጫወቻውን ማስቆሚያ"
+
+#: ../src/views/ControlBar.qml:247 ../src/controllers/menu_controller.py:90
+msgid "Previous"
+msgstr "ቀደም ያለው"
+
+#: ../src/views/ControlBar.qml:266
+msgid "Pause"
+msgstr "ማስቆሚያ"
+
+#: ../src/views/ControlBar.qml:266 ../src/controllers/menu_controller.py:108
+#: ../src/controllers/menu_controller.py:119
+msgid "Play"
+msgstr "ማጫወቻ"
+
+#: ../src/views/ControlBar.qml:283 ../src/controllers/menu_controller.py:91
+msgid "Next"
+msgstr "ይቀጥሉ"
+
+#: ../src/views/ControlBar.qml:326 ../src/controllers/menu_controller.py:449
+msgid "Exit fullscreen"
+msgstr "ከ ሙሉ መመልከቻው ዘዴ መውጫ"
+
+#: ../src/views/ControlBar.qml:326 ../src/views/PreferenceWindow.qml:391
+#: ../src/views/PreferenceWindow.qml:941 ../src/views/ShortcutsViewer.qml:58
+#: ../src/views/ShortcutsViewer.qml:139
+#: ../src/controllers/menu_controller.py:102
+#: ../src/controllers/menu_controller.py:450
+msgid "Fullscreen"
+msgstr "በሙሉ መመልከቻ ዘዴ"
+
+#: ../src/views/ControlBar.qml:343 ../src/views/PreferenceWindow.qml:711
+#: ../src/views/ShortcutsViewer.qml:83
+#: ../src/controllers/menu_controller.py:98
+msgid "Open a file"
+msgstr "ፋይል መክፈቻ"
+
+#: ../src/views/ControlBar.qml:355 ../src/views/OpenFileDialog.qml:66
+#: ../src/views/PreferenceWindow.qml:417 ../src/views/ShortcutsViewer.qml:62
+#: ../src/controllers/menu_controller.py:105
+msgid "Playlist"
+msgstr "የማጫወቻ ዝርዝር"
+
+#: ../src/views/HotKeyInput.qml:7 ../src/views/HotKeyInput.qml:16
+#: ../src/views/HotKeyInputRow.qml:24 ../src/views/HotKeyInputRow.qml:26
+#: ../src/views/HotKeyInputRow.qml:56 ../src/views/PreferenceWindow.qml:925
+#: ../src/views/PreferenceWindow.qml:941 ../src/views/PreferenceWindow.qml:957
+#: ../src/views/ShortcutsLabel.qml:23 ../src/views/ShortcutsViewer.qml:134
+#: ../src/views/ShortcutsViewer.qml:139 ../src/views/ShortcutsViewer.qml:144
+msgid "None"
+msgstr "ምንም"
+
+#: ../src/views/HotKeyInput.qml:23
+msgid "Please input a new shortcut"
+msgstr "እባክዎን አቋራ ያስገቡ"
+
+#: ../src/views/HotKeyInputRow.qml:30
+msgid "The shortcut you set "
+msgstr "እርስዎ ያሰናዱት አቋራጭ"
+
+#: ../src/views/HotKeyInputRow.qml:31
+#, qt-format
+msgid "conflicts with the one used for \"%2\" in the \"%1\" category. "
+msgstr "ይጋጫል አሁን ከሚጠቀሙት ጋር \"%2\" በ \"%1\" ምድብ ውስጥ "
+
+#: ../src/views/HotKeyInputRow.qml:32
+msgid "Do you want to replace it?"
+msgstr "መቀየር ይፈልጋሉ?"
+
+#: ../src/views/HotKeyInputRow.qml:99 ../src/views/main.qml:144
+msgid "Cancel"
+msgstr "መሰረዣ"
+
+#: ../src/views/HotKeyInputRow.qml:110
+msgid "Replace"
+msgstr "መቀየሪያ"
+
+#: ../src/views/InformationWindow.qml:23 ../src/views/InformationWindow.qml:24
+#: ../src/views/InformationWindow.qml:25 ../src/models/movie_info.py:78
+msgid "Unknown"
+msgstr "ያልታወቀ"
+
+#: ../src/views/InformationWindow.qml:77
+msgid "File type"
+msgstr "የፋይል አይነት"
+
+#: ../src/views/InformationWindow.qml:87
+msgid "File size"
+msgstr "የፋይል መጠን"
+
+#: ../src/views/InformationWindow.qml:97
+msgid "Resolution"
+msgstr "ሪዞሊሽን"
+
+#: ../src/views/InformationWindow.qml:107
+msgid "Movie duration"
+msgstr "ሙቪው የሚፈጀው ጊዜ"
+
+#: ../src/views/InformationWindow.qml:117
+msgid "File path"
+msgstr "የፋይል መንገድ"
+
+#: ../src/views/InformationWindow.qml:134
+msgid "Copy to clipboard"
+msgstr "ወደ ቁራጭ ሰሌዳ ኮፒ ማድረጊያ"
+
+#: ../src/views/InformationWindow.qml:149
+msgid "Close"
+msgstr "መዝጊያ"
+
+#: ../src/views/MainController.qml:260
+msgid "Invalid file"
+msgstr "ዋጋ የሌለው ፋይል"
+
+#: ../src/views/MainController.qml:37
+#, qt-format
+msgid "%1 files unable to be parsed have been excluded"
+msgstr "%1 ፋይሎች መተንተን ያልተችለው አብረው ተካተዋል"
+
+#: ../src/views/MainController.qml:50
+msgid "Imported"
+msgstr "መጥቷል"
+
+#: ../src/views/MainController.qml:462
+msgid "Play last movie played"
+msgstr "መጨረሻ የተጫወተውን ሙቪ ማጫወቻ"
+
+#: ../src/views/MainController.qml:495 ../src/views/PreferenceWindow.qml:339
+#: ../src/views/ShortcutsViewer.qml:50
+#: ../src/controllers/menu_controller.py:93
+msgid "Forward"
+msgstr "ወደ ፊት"
+
+#: ../src/views/MainController.qml:507 ../src/views/PreferenceWindow.qml:365
+#: ../src/views/ShortcutsViewer.qml:54
+#: ../src/controllers/menu_controller.py:94
+msgid "Rewind"
+msgstr "ወደ ኋላ ማጠንጠኛ"
+
+#: ../src/views/MainController.qml:515 ../src/views/MainController.qml:521
+#, qt-format
+msgid "(Press %1 to restore)"
+msgstr "(ይጫኑ %1 እንደ ነበር ለመመለስ)"
+
+#: ../src/views/MainController.qml:517 ../src/views/MainController.qml:523
+#: ../src/views/MainController.qml:528
+msgid "Playback rate: "
+msgstr "በ ድጋሚ ማጫወቻ መጠን"
+
+#: ../src/views/MainController.qml:540 ../src/views/MainController.qml:549
+msgid "Volume: "
+msgstr "መጠን:"
+
+#: ../src/views/MainController.qml:547
+#: ../src/controllers/menu_controller.py:60
+msgid "Muted"
+msgstr "መቀነሻ"
+
+#: ../src/views/MainController.qml:683 ../src/views/MainController.qml:696
+#, qt-format
+msgid "Subtitle advanced %1 seconds"
+msgstr "ንዑስ አርእስት %1 ሰከንዶች"
+
+#: ../src/views/MainController.qml:685 ../src/views/MainController.qml:698
+#, qt-format
+msgid "Subtitle delayed %1 seconds"
+msgstr "ንዑስ አርእስት ዘግይቷል በ %1 ሰከንዶች"
+
+#: ../src/views/OpenFileDialog.qml:5 ../src/views/OpenFileDialog.qml:21
+#: ../src/views/OpenFileDialog.qml:41
+msgid "Please choose one file or more"
+msgstr "እባክዎን አንድ ወይንም ተጨማሪ ፋይል ይምረጡ"
+
+#: ../src/views/OpenFileDialog.qml:7 ../src/views/OpenFileDialog.qml:23
+#: ../src/views/OpenFileDialog.qml:43
+msgid "Video files"
+msgstr "የ ቪዲዮ ፋይሎች"
+
+#: ../src/views/OpenFileDialog.qml:15
+msgid "All files"
+msgstr "ሁሉንም ፋይሎች"
+
+#: ../src/views/OpenFileDialog.qml:31 ../src/views/OpenFileDialog.qml:51
+msgid "Please choose one file"
+msgstr "እባክዎን አንድ ፋይል ይምረጡ"
+
+#: ../src/views/OpenFileDialog.qml:33
+msgid "Subtitle files"
+msgstr "የ ንዑስ አርእስት ፋይሎች"
+
+#: ../src/views/OpenFileDialog.qml:53 ../src/views/OpenFileDialog.qml:63
+msgid "Playlist files"
+msgstr "የ ማጫወቻ ዝርዝር ፋይሎች"
+
+#: ../src/views/OpenFileDialog.qml:61
+msgid "Save as"
+msgstr "ማስቀመጫ እንደ"
+
+#: ../src/views/OpenFolderDialog.qml:5
+msgid "Please choose a folder"
+msgstr "እባዎን ፎልደር ይምረጡ"
+
+#: ../src/views/Playlist.qml:252
+msgid "Play mode"
+msgstr "ማጫወቻ ዘዴ"
+
+#: ../src/views/Playlist.qml:260 ../src/controllers/menu_controller.py:120
+#: ../src/controllers/menu_controller.py:136
+msgid "Add file"
+msgstr "ፋይል መጨመሪያ"
+
+#: ../src/views/Playlist.qml:268 ../src/controllers/menu_controller.py:127
+msgid "Clear playlist"
+msgstr "ዝርዝር ማጫወቻ ማጽጃ"
+
+#: ../src/views/PreferenceWindow.qml:238
+msgid "Clear playlist on opening new file"
+msgstr "አዲስ ፋይል በሚከፈትበት ጊዜ የማጫወቻውን ዝርዝር ማጽጃ"
+
+#: ../src/views/PreferenceWindow.qml:243
+msgid "Resume playback after restarting player"
+msgstr "ማጫወቻው እንደገና ሲጀምር በድጋሚ ማጫወቱን መቀጠያ"
+
+#: ../src/views/PreferenceWindow.qml:248
+msgid "Continue to next video automatically"
+msgstr "ወደሚቀጥለው ቪዲዮ ራስ በራሱ መቀጠያ"
+
+#: ../src/views/PreferenceWindow.qml:253
+msgid "Show preview when hovering over progress bar"
+msgstr "በ ቅድመ እይታ ማሳያ በ ሂደት መደርደሪያ ላይ ሲንሳፈፍ"
+
+#: ../src/views/PreferenceWindow.qml:286
+msgid "Forward/Rewind (s)"
+msgstr "ወደ ፊት/ማጠንጠኛ(ዎች)"
+
+#: ../src/views/PreferenceWindow.qml:308 ../src/views/PreferenceWindow.qml:532
+#: ../src/views/PreferenceWindow.qml:705 ../src/views/PreferenceWindow.qml:800
+msgid "Enable keyboard shortcuts"
+msgstr "የ ፊደል ገበታ አቋራጮች ማስቻያ"
+
+#: ../src/views/PreferenceWindow.qml:313 ../src/views/PreferenceWindow.qml:925
+#: ../src/views/ShortcutsViewer.qml:46 ../src/views/ShortcutsViewer.qml:134
+msgid "Pause/Play"
+msgstr "ማጫወቻ/ማስቆሚያ"
+
+#: ../src/views/PreferenceWindow.qml:443 ../src/views/ShortcutsViewer.qml:66
+msgid "Accelerate playback"
+msgstr "መልሶ ማጫወቻ ማፍጠኛ"
+
+#: ../src/views/PreferenceWindow.qml:469 ../src/views/ShortcutsViewer.qml:70
+msgid "Decelerate playback"
+msgstr "መልሶ ማጫወቻ ማዘግያ"
+
+#: ../src/views/PreferenceWindow.qml:495 ../src/views/ShortcutsViewer.qml:74
+msgid "Restore playback speed"
+msgstr "መልሶ ማጫወቻ እንደ ነበር መመለሻ"
+
+#: ../src/views/PreferenceWindow.qml:538 ../src/views/ShortcutsViewer.qml:104
+#: ../src/controllers/menu_controller.py:103
+#: ../src/controllers/menu_controller.py:452
+msgid "Mini mode"
+msgstr "በትንሽ ዘዴ"
+
+#: ../src/views/PreferenceWindow.qml:616 ../src/views/ShortcutsViewer.qml:116
+msgid "Volume up"
+msgstr "መጠን መጨመሪያ"
+
+#: ../src/views/PreferenceWindow.qml:642 ../src/views/ShortcutsViewer.qml:120
+msgid "Volume down"
+msgstr "መጠን መቀነሻ"
+
+#: ../src/views/PreferenceWindow.qml:737 ../src/views/ShortcutsViewer.qml:87
+msgid "Open previous"
+msgstr "ቀደም ያለውን መክፈቻ"
+
+#: ../src/views/PreferenceWindow.qml:763 ../src/views/ShortcutsViewer.qml:91
+msgid "Open next"
+msgstr "የሚቀጥለውን መክፈቻ"
+
+#: ../src/views/PreferenceWindow.qml:806 ../src/views/ShortcutsViewer.qml:153
+#, qt-format
+msgid "Forward %1 (s)"
+msgstr "ወደ ፊት %1 (s)"
+
+#: ../src/views/PreferenceWindow.qml:832 ../src/views/ShortcutsViewer.qml:157
+#, qt-format
+msgid "Delay %1 (s)"
+msgstr "ማዘግያ %1 (s)"
+
+#: ../src/views/PreferenceWindow.qml:858 ../src/views/ShortcutsViewer.qml:161
+msgid "Subtitle up"
+msgstr "ንዑስ አርእስት ከ ላይ"
+
+#: ../src/views/PreferenceWindow.qml:884 ../src/views/ShortcutsViewer.qml:165
+msgid "Subtitle down"
+msgstr "ንዑስ አርእስት ከ ታች"
+
+#: ../src/views/PreferenceWindow.qml:922 ../src/views/ShortcutsViewer.qml:133
+msgid "Left click"
+msgstr "የ ግራ መጫኛ"
+
+#: ../src/views/PreferenceWindow.qml:938 ../src/views/ShortcutsViewer.qml:138
+msgid "Double click"
+msgstr "ሁለት ጊዜ መጫኛ"
+
+#: ../src/views/PreferenceWindow.qml:979
+msgid "Subtitles loaded automatically"
+msgstr "ንዑስ አርእስቶችን ራሱ በራሱ መጫኛ"
+
+#: ../src/views/PreferenceWindow.qml:1088
+msgid "Border width"
+msgstr "የ ድንበር ስፋት"
+
+#: ../src/views/PreferenceWindow.qml:21
+msgid "Orange"
+msgstr "ብርቱካን"
+
+#: ../src/views/PreferenceWindow.qml:76 ../src/views/PreferenceWindow.qml:92
+#: ../src/views/PreferenceWindow.qml:217 ../src/views/PreferenceWindow.qml:299
+#: ../src/views/ShortcutsViewer.qml:43
+msgid "Playback"
+msgstr "በድጋሚ ማጫወቻ"
+
+#: ../src/views/PreferenceWindow.qml:97 ../src/views/PreferenceWindow.qml:523
+#: ../src/views/ShortcutsViewer.qml:101
+msgid "Frame/Sound"
+msgstr "ክፈፍ/ዽምፅ"
+
+#: ../src/views/PreferenceWindow.qml:102 ../src/views/PreferenceWindow.qml:696
+#: ../src/views/ShortcutsViewer.qml:80
+msgid "Files"
+msgstr "ፋይሎች"
+
+#: ../src/views/PreferenceWindow.qml:112 ../src/views/PreferenceWindow.qml:912
+#: ../src/views/ShortcutsViewer.qml:130
+msgid "Other"
+msgstr "ለላ"
+
+#: ../src/views/PreferenceWindow.qml:107 ../src/views/PreferenceWindow.qml:791
+#: ../src/views/ShortcutsViewer.qml:150
+#: ../src/controllers/menu_controller.py:111
+msgid "Subtitles"
+msgstr "ንዑስ አርእስቶች"
+
+#: ../src/views/PreferenceWindow.qml:15
+msgid "Black"
+msgstr "ጥቁር"
+
+#: ../src/views/PreferenceWindow.qml:16
+msgid "bleu de France"
+msgstr "ሰማያዊ"
+
+#: ../src/views/PreferenceWindow.qml:17
+msgid "Turquoise"
+msgstr "አረንጓዴ ሰማያዊ"
+
+#: ../src/views/PreferenceWindow.qml:18
+msgid "UFO green"
+msgstr "ቢጫ አረንጓዴ"
+
+#: ../src/views/PreferenceWindow.qml:19
+msgid "Green yellow"
+msgstr "አረንጓዴ ቢጫ"
+
+#: ../src/views/PreferenceWindow.qml:20
+msgid "Energy yellow"
+msgstr "ቢጫ"
+
+#: ../src/views/PreferenceWindow.qml:22
+msgid "Radical red"
+msgstr "መሰረታዊ ቀይ"
+
+#: ../src/views/PreferenceWindow.qml:23
+msgid "Lavender indigo"
+msgstr "ወይን ጠጅ"
+
+#: ../src/views/PreferenceWindow.qml:24
+msgid "Royal blue"
+msgstr "ሰማያዊ"
+
+#: ../src/views/PreferenceWindow.qml:25
+msgid "Aluminum"
+msgstr "አሉሚኒየም"
+
+#: ../src/views/PreferenceWindow.qml:26
+msgid "Clean white"
+msgstr "ንጹህ ነጭ"
+
+#: ../src/views/PreferenceWindow.qml:72 ../src/views/PreferenceWindow.qml:213
+msgid "Basic settings"
+msgstr "መሰረታዊ ማሰናጃ"
+
+#: ../src/views/PreferenceWindow.qml:81 ../src/views/PreferenceWindow.qml:277
+msgid "Time span"
+msgstr "የሚፈጀው ጊዜ "
+
+#: ../src/views/PreferenceWindow.qml:88 ../src/views/PreferenceWindow.qml:295
+msgid "Keyboard shortcuts"
+msgstr "የፊደል ገበታ አቋራጮች"
+
+#: ../src/views/PreferenceWindow.qml:119 ../src/views/PreferenceWindow.qml:972
+msgid "Subtitle settings"
+msgstr "ንዑስ አርእስት ማሰናጃ"
+
+#: ../src/views/PreferenceWindow.qml:148
+msgid "Reset shortcuts"
+msgstr "አቋራጭ እንደ ነበር መመለሻ"
+
+#: ../src/views/PreferenceWindow.qml:152
+msgid "Reset subtitle settings"
+msgstr "ንዑስ አርእስት እንደ ነበር መመለሻ ማሰናጃ"
+
+#: ../src/views/PreferenceWindow.qml:226
+msgid "Fullscreen on opening file"
+msgstr "ፋይሉ በሚከፈት ጊዜ በሙሉ መመልከቻ ዘዴ"
+
+#: ../src/views/PreferenceWindow.qml:232
+msgid "Apply the size last time closed"
+msgstr "መጨረሻ ጊዜ ሲዘጋ የነበረውን መጠን መጠቀሚያ "
+
+#: ../src/views/PreferenceWindow.qml:258
+msgid "Allow multiple instances"
+msgstr "በርካታ ሁኔታዎችን ማስቻያ"
+
+#: ../src/views/PreferenceWindow.qml:263
+msgid "Pause when minimized"
+msgstr "በሚያንስ ጊዜ ማስቆሚያ"
+
+#: ../src/views/PreferenceWindow.qml:564 ../src/views/ShortcutsViewer.qml:108
+msgid "Rotate counterclockwise"
+msgstr "ማዞሪያ ከ ቀኝ ወደ ግራ"
+
+#: ../src/views/PreferenceWindow.qml:590 ../src/views/ShortcutsViewer.qml:112
+msgid "Rotate clockwise"
+msgstr "ማዞሪያ ከ ግራ ወደ ቀኝ"
+
+#: ../src/views/PreferenceWindow.qml:668 ../src/views/ShortcutsViewer.qml:124
+msgid "Mute"
+msgstr "መቀነሻ"
+
+#: ../src/views/PreferenceWindow.qml:954 ../src/views/ShortcutsViewer.qml:143
+msgid "Scroll"
+msgstr "መሸብለያ"
+
+#: ../src/views/PreferenceWindow.qml:957 ../src/views/ShortcutsViewer.qml:144
+#: ../src/views/VolumeButton.qml:44
+msgid "Volume"
+msgstr "መጠን"
+
+#: ../src/views/PreferenceWindow.qml:993
+msgid "Font"
+msgstr "ፊደል"
+
+#: ../src/views/PreferenceWindow.qml:1053
+msgid "Font color"
+msgstr "የ ፊደል ቀለም"
+
+#: ../src/views/PreferenceWindow.qml:1071
+msgid "Size"
+msgstr "መጠን"
+
+#: ../src/views/PreferenceWindow.qml:1105
+msgid "Border color"
+msgstr "የ ድንበር ቀለም"
+
+#: ../src/views/PreferenceWindow.qml:1123
+msgid "Position"
+msgstr "ቦታ"
+
+#: ../src/views/PreferenceWindow.qml:1128
+msgid "Bottom"
+msgstr "ከ ታች"
+
+#: ../src/views/PreferenceWindow.qml:1129
+msgid "Top"
+msgstr "ከ ላይ"
+
+#: ../src/views/PreferenceWindow.qml:1140
+msgid "Sync adjustment (s)"
+msgstr "ማስማሚያ ማስተካከያ (ዎች)"
+
+#: ../src/views/TitleBar.qml:173
+msgid "Shown in a proportion of 1:1"
+msgstr "ታይቷል በ ተመጣጣኝ በ 1:1"
+
+#: ../src/views/TitleBar.qml:185
+msgid "Shown in 1.5 times"
+msgstr "ታይቷል በ 1.5 ጊዜ"
+
+#: ../src/views/TitleBar.qml:198
+msgid "Return to mini mode"
+msgstr "ወደ ትንሽ ዘዴ መመለሻ"
+
+#: ../src/views/TitleBar.qml:198
+msgid "Shown in fullscreen"
+msgstr "በ ሙሉ መመልከቻ ዘዴ ታይቷል"
+
+#: ../src/views/TitleBar.qml:213
+msgid "Cancel \"On Top\""
+msgstr "መሰረዣ \"ከ ላይ\""
+
+#: ../src/views/TitleBar.qml:213
+msgid "On Top"
+msgstr "ከ ላይ"
+
+#: ../src/views/main.qml:142
+msgid "Please input the url of file played"
+msgstr "እባክዎን ያስገቡ url ለ ተጫወተው ፋይል"
+
+#: ../src/views/main.qml:143
+msgid "Confirm"
+msgstr "ማረጋገጫ"
+
+#: ../src/views/main.qml:160
+msgid "The parse failed"
+msgstr "መተንተን አልተቻለም"
+
+#: ../src/views/main.qml:458 ../src/views/main.qml:459
+msgid "Buffering..."
+msgstr "በ መጠበቅ ላይ..."
+
+#: ../src/controllers/menu_controller.py:35
+msgid "Default"
+msgstr "ነባር"
+
+#: ../src/controllers/menu_controller.py:47
+msgid "Rotate 90 degree clockwise"
+msgstr "ማዞሪያ 90 ዲግሪ ከ ግራ ወደ ቀኝ"
+
+#: ../src/controllers/menu_controller.py:48
+msgid "Rotate 90 degree counterclockwise"
+msgstr "ማዞሪያ 90 ዲግሪ ከ ቀኝ ወደ ግራ"
+
+#: ../src/controllers/menu_controller.py:49
+msgid "Flip horizontally"
+msgstr "በ አግድም መገልበጫ"
+
+#: ../src/controllers/menu_controller.py:50
+msgid "Flip vertically"
+msgstr "በ ቁመት መገልበጫ"
+
+#: ../src/controllers/menu_controller.py:58
+msgid "Volume Up"
+msgstr "መጠን መጨመሪያ"
+
+#: ../src/controllers/menu_controller.py:59
+msgid "Volume Down"
+msgstr "መጠን መቀነሻ"
+
+#: ../src/controllers/menu_controller.py:64
+msgid "Auto"
+msgstr "በራሱ"
+
+#: ../src/controllers/menu_controller.py:65
+msgid "Left"
+msgstr "የ ግራ"
+
+#: ../src/controllers/menu_controller.py:66
+msgid "Right"
+msgstr "የ ቀኝ"
+
+#: ../src/controllers/menu_controller.py:67
+msgid "Mono"
+msgstr "ነጠላ"
+
+#: ../src/controllers/menu_controller.py:68
+msgid "Stero"
+msgstr "ስቴሪዮ"
+
+#: ../src/controllers/menu_controller.py:72
+msgid "Hide subtitle"
+msgstr "ንዑስ አርእስት መደበቂያ"
+
+#: ../src/controllers/menu_controller.py:76
+msgid "Open manually"
+msgstr "በ እጅ መክፈቻ"
+
+#: ../src/controllers/menu_controller.py:77
+msgid "Subtitle selection"
+msgstr "ንዑስ አርእስት መምረጫ"
+
+#: ../src/controllers/menu_controller.py:78
+msgid "Subtitle setting"
+msgstr "ንዑስ አርእስት ማሰናጃ"
+
+#: ../src/controllers/menu_controller.py:82
+msgid "Order"
+msgstr "ቅደም ተከተል"
+
+#: ../src/controllers/menu_controller.py:83
+msgid "Random"
+msgstr "በደፈናው"
+
+#: ../src/controllers/menu_controller.py:84
+msgid "Single"
+msgstr "ነጠላ"
+
+#: ../src/controllers/menu_controller.py:85
+msgid "Repeat (Single)"
+msgstr "መድገሚያ (ነጠላ)"
+
+#: ../src/controllers/menu_controller.py:86
+msgid "Repeat (Playlist)"
+msgstr "መድገሚያ (የማጫወቻ ዝርዝር)"
+
+#: ../src/controllers/menu_controller.py:99
+msgid "Open a folder"
+msgstr "ፎልደር መክፈቻ"
+
+#: ../src/controllers/menu_controller.py:100
+msgid "Open URL"
+msgstr "URL መክፈቻ"
+
+#: ../src/controllers/menu_controller.py:104
+msgid "Always on top"
+msgstr "ሁል ጊዜ ከ ላይ"
+
+#: ../src/controllers/menu_controller.py:107
+msgid "Play Sequence"
+msgstr "የማጫወቻ ቅደም ተከተል"
+
+#: ../src/controllers/menu_controller.py:109
+msgid "Frame"
+msgstr "ክፈፍ"
+
+#: ../src/controllers/menu_controller.py:110
+msgid "Sound"
+msgstr "ድምፅ"
+
+#: ../src/controllers/menu_controller.py:113
+msgid "Settings"
+msgstr "ማሰናጃዎች"
+
+#: ../src/controllers/menu_controller.py:114
+#: ../src/controllers/menu_controller.py:132
+msgid "Information"
+msgstr "መረጃ"
+
+#: ../src/controllers/menu_controller.py:115
+msgid "Help"
+msgstr "እርዳታ"
+
+#: ../src/controllers/menu_controller.py:121
+#: ../src/controllers/menu_controller.py:137
+msgid "Add folder"
+msgstr "ፎልደር መጨመሪያ"
+
+#: ../src/controllers/menu_controller.py:123
+msgid "Remove from playlist"
+msgstr "ከ ዝርዝር ማጫወቻ ማስወገጃ"
+
+#: ../src/controllers/menu_controller.py:124
+msgid "Remove invalid file"
+msgstr "ዋጋ የሌለውን ፋይል ማስወገጃ "
+
+#: ../src/controllers/menu_controller.py:125
+msgid "Export"
+msgstr "መላኪያ"
+
+#: ../src/controllers/menu_controller.py:126
+msgid "Import"
+msgstr "ማምጫ"
+
+#: ../src/controllers/menu_controller.py:131
+msgid "Open file location"
+msgstr "የፋይሉን አካባቢ መክፈቻ"
+
+#: ../src/controllers/menu_controller.py:451
+msgid "Exit mini mode"
+msgstr "ከ ሚንት ዘዴ መውጫ"
